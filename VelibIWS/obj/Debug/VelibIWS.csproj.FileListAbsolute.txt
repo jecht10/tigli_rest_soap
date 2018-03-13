@@ -1,0 +1,10 @@
+C:\Users\User\source\repos\VelibIWS\VelibIWS\bin\Debug\VelibIWS.dll.config
+C:\Users\User\source\repos\VelibIWS\VelibIWS\bin\Debug\VelibIWS.dll
+C:\Users\User\source\repos\VelibIWS\VelibIWS\bin\Debug\VelibIWS.pdb
+C:\Users\User\source\repos\VelibIWS\VelibIWS\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\source\repos\VelibIWS\VelibIWS\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\source\repos\VelibIWS\VelibIWS\obj\Debug\VelibIWS.csprojResolveAssemblyReference.cache
+C:\Users\User\source\repos\VelibIWS\VelibIWS\obj\Debug\VelibIWS.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\VelibIWS\VelibIWS\obj\Debug\VelibIWS.csproj.CopyComplete
+C:\Users\User\source\repos\VelibIWS\VelibIWS\obj\Debug\VelibIWS.dll
+C:\Users\User\source\repos\VelibIWS\VelibIWS\obj\Debug\VelibIWS.pdb
