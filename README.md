@@ -7,3 +7,6 @@ All libraries are already imported and all object files are already generated; t
 # Extensions developped
 - Graphical User Interface for the client
 - Add a cache in IWS, to reduce communications between
+
+# Author
+**Elie Baroghel**
