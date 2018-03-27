@@ -15,9 +15,6 @@ namespace VelibIWS
         List<string> GetVilles();
 
         [OperationContract]
-        List<string> GetAllStations();
-
-        [OperationContract]
         List<string> GetStations(string ville);
 
         [OperationContract]
@@ -25,6 +22,22 @@ namespace VelibIWS
 
         [OperationContract]
         List<string> GetNbVelibInStations(string stationsName);
+
+        [OperationContract(AsyncPattern = true)]
+        IAsyncResult BeginGetVilles(AsyncCallback callback, object state);
+        List<string> EndGetVilles(IAsyncResult asyncResult);
+
+        [OperationContract(AsyncPattern = true)]
+        IAsyncResult BeginGetStations(string ville, AsyncCallback callback, object state);
+        List<string> EndGetStations(IAsyncResult asyncResult);
+
+        [OperationContract(AsyncPattern = true)]
+        IAsyncResult BeginGetNbVelib(string station, AsyncCallback callback, object state);
+        string EndGetNbVelib(IAsyncResult asyncResult);
+
+        [OperationContract(AsyncPattern = true)]
+        IAsyncResult BeginGetNbVelibInStations(string stationsName, AsyncCallback callback, object state);
+        List<string> EndGetNbVelibInStations(IAsyncResult asyncResult);
     }
 
     /*

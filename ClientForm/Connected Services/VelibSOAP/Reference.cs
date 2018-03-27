@@ -21,12 +21,6 @@ namespace ClientForm.VelibSOAP {
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IVelibIWService/GetVilles", ReplyAction="http://tempuri.org/IVelibIWService/GetVillesResponse")]
         System.Threading.Tasks.Task<string[]> GetVillesAsync();
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IVelibIWService/GetAllStations", ReplyAction="http://tempuri.org/IVelibIWService/GetAllStationsResponse")]
-        string[] GetAllStations();
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IVelibIWService/GetAllStations", ReplyAction="http://tempuri.org/IVelibIWService/GetAllStationsResponse")]
-        System.Threading.Tasks.Task<string[]> GetAllStationsAsync();
-        
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IVelibIWService/GetStations", ReplyAction="http://tempuri.org/IVelibIWService/GetStationsResponse")]
         string[] GetStations(string ville);
         
@@ -79,14 +73,6 @@ namespace ClientForm.VelibSOAP {
         
         public System.Threading.Tasks.Task<string[]> GetVillesAsync() {
             return base.Channel.GetVillesAsync();
-        }
-        
-        public string[] GetAllStations() {
-            return base.Channel.GetAllStations();
-        }
-        
-        public System.Threading.Tasks.Task<string[]> GetAllStationsAsync() {
-            return base.Channel.GetAllStationsAsync();
         }
         
         public string[] GetStations(string ville) {
