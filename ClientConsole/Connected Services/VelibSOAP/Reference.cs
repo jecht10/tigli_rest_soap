@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ClientForm.VelibSOAP {
+namespace ClientConsole.VelibSOAP {
     
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -47,12 +47,12 @@ namespace ClientForm.VelibSOAP {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface IVelibIWServiceChannel : ClientForm.VelibSOAP.IVelibIWService, System.ServiceModel.IClientChannel {
+    public interface IVelibIWServiceChannel : ClientConsole.VelibSOAP.IVelibIWService, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class VelibIWServiceClient : System.ServiceModel.ClientBase<ClientForm.VelibSOAP.IVelibIWService>, ClientForm.VelibSOAP.IVelibIWService {
+    public partial class VelibIWServiceClient : System.ServiceModel.ClientBase<ClientConsole.VelibSOAP.IVelibIWService>, ClientConsole.VelibSOAP.IVelibIWService {
         
         public VelibIWServiceClient() {
         }

@@ -15,44 +15,16 @@ namespace VelibIWS
         List<string> GetVilles();
 
         [OperationContract]
+        List<string> GetAllStations();
+
+        [OperationContract]
         List<string> GetStations(string ville);
 
         [OperationContract]
         string GetNbVelib(string station);
-    }
 
-    [DataContract]
-    public class CompositeVille
-    {
-        string name;
-
-        [DataMember]
-        public string Name
-        {
-            get { return name; }
-            set { name = value;  }
-        }
-    }
-
-    [DataContract]
-    public class CompositeStation
-    {
-        string name;
-        int nbVelib;
-
-        [DataMember]
-        public string Name
-        {
-            get { return name; }
-            set { name = value; }
-        }
-
-        [DataMember]
-        public int NbVelib
-        {
-            get { return nbVelib; }
-            set { nbVelib = value; }
-        }
+        [OperationContract]
+        List<string> GetNbVelibInStations(string stationsName);
     }
 
     /*

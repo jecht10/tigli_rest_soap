@@ -45,21 +45,50 @@ namespace VelibIWS
 
         public string GetNbVelib(string station)
         {
+            station = station.ToLower();
             foreach(JObject item in stations)
             {
-                string name = ((string)item.SelectToken("name"));
+                string name = ((string)item.SelectToken("name")).ToLower();
                 if (name.Contains(station))
                     return (string)(item.SelectToken("available_bikes"));
             }
             return "";
         }
 
+        public List<string> GetNbVelibInStations(string stationsName)
+        {
+            stationsName = stationsName.ToLower();
+            List<string> res = new List<string>();
+            foreach(JObject item in stations)
+            {
+                string name = ((string)item.SelectToken("name")).ToLower();
+                if (name.Contains(stationsName))
+                {
+                    res.Add((string)(item.SelectToken("name")));
+                    res.Add((string)(item.SelectToken("available_bikes")));
+                }
+
+            }
+            return res;
+        }
+
+        public List<string> GetAllStations()
+        {
+            List<string> res = new List<string>();
+            foreach (JObject station in stations)
+            {
+                res.Add((string)(station.SelectToken("name")));
+            }
+            return res;
+        }
+
         public List<string> GetStations(string ville)
         {
             List<string> res = new List<string>();
+            ville = ville.ToLower();
             foreach(JObject station in stations)
             {
-                string name = ((string)station.SelectToken("contract_name"));
+                string name = ((string)station.SelectToken("contract_name")).ToLower();
                 if (name.Contains(ville))
                     res.Add((string)(station.SelectToken("name")));
             }
