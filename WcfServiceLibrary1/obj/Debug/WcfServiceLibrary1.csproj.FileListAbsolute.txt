@@ -1,9 +1,0 @@
-C:\Users\User\source\repos\VelibIWS\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.dll.config
-C:\Users\User\source\repos\VelibIWS\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.dll
-C:\Users\User\source\repos\VelibIWS\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.pdb
-C:\Users\User\source\repos\VelibIWS\WcfServiceLibrary1\bin\Debug\Newtonsoft.Json.dll
-C:\Users\User\source\repos\VelibIWS\WcfServiceLibrary1\bin\Debug\Newtonsoft.Json.xml
-C:\Users\User\source\repos\VelibIWS\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.csproj.CoreCompileInputs.cache
-C:\Users\User\source\repos\VelibIWS\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.csproj.CopyComplete
-C:\Users\User\source\repos\VelibIWS\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.dll
-C:\Users\User\source\repos\VelibIWS\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.pdb
