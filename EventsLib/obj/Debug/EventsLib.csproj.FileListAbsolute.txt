@@ -1,0 +1,9 @@
+C:\Users\User\source\repos\VelibIWS\EventsLib\bin\Debug\EventsLib.dll
+C:\Users\User\source\repos\VelibIWS\EventsLib\bin\Debug\EventsLib.pdb
+C:\Users\User\source\repos\VelibIWS\EventsLib\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\source\repos\VelibIWS\EventsLib\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\source\repos\VelibIWS\EventsLib\obj\Debug\EventsLib.csprojResolveAssemblyReference.cache
+C:\Users\User\source\repos\VelibIWS\EventsLib\obj\Debug\EventsLib.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\VelibIWS\EventsLib\obj\Debug\EventsLib.csproj.CopyComplete
+C:\Users\User\source\repos\VelibIWS\EventsLib\obj\Debug\EventsLib.dll
+C:\Users\User\source\repos\VelibIWS\EventsLib\obj\Debug\EventsLib.pdb

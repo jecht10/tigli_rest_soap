@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="ff5dbcde-4e08-455c-97f9-f713de31bd30" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="36b54054-017d-45ce-ad9d-5471f74958a1" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -19,14 +19,14 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://localhost:8700/velibiws/" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://localhost:8700/VelibIWS/DefaultService" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="cfa37257-e4ea-4ad7-be69-1d3e11e75665" SourceId="1" SourceUrl="http://localhost:8700/velibiws/?disco" />
-    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="503a129e-1054-4294-ae58-4e548108d126" SourceId="1" SourceUrl="http://localhost:8700/velibiws/?xsd=xsd2" />
-    <MetadataFile FileName="VelibIWService.wsdl" MetadataType="Wsdl" ID="8b2fb334-2ed9-48d1-82d3-baa46fc3ddb2" SourceId="1" SourceUrl="http://localhost:8700/velibiws/?wsdl" />
-    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="6b3b8d51-284f-4de3-8200-4502e1388184" SourceId="1" SourceUrl="http://localhost:8700/velibiws/?xsd=xsd1" />
-    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="35fe12a1-3a9b-463b-b5a7-0080625c4b5e" SourceId="1" SourceUrl="http://localhost:8700/velibiws/?xsd=xsd0" />
+    <MetadataFile FileName="DefaultService.xsd" MetadataType="Schema" ID="c2858b67-670b-4fd7-b289-9b345609eeb3" SourceId="1" SourceUrl="http://localhost:8700/VelibIWS/DefaultService?xsd=xsd0" />
+    <MetadataFile FileName="VelibIWService.wsdl" MetadataType="Wsdl" ID="fb2f4c16-6c36-4920-bb23-c93f0d35571d" SourceId="1" SourceUrl="http://localhost:8700/VelibIWS/DefaultService?wsdl" />
+    <MetadataFile FileName="DefaultService.disco" MetadataType="Disco" ID="8b593c00-385b-40c3-b615-ddab7bb1f2ec" SourceId="1" SourceUrl="http://localhost:8700/VelibIWS/DefaultService?disco" />
+    <MetadataFile FileName="DefaultService1.xsd" MetadataType="Schema" ID="a9d611a6-97ed-4d99-a2d4-ae84e02b4a03" SourceId="1" SourceUrl="http://localhost:8700/VelibIWS/DefaultService?xsd=xsd2" />
+    <MetadataFile FileName="DefaultService2.xsd" MetadataType="Schema" ID="78294b41-9625-43cb-8f42-a8b5fee5f299" SourceId="1" SourceUrl="http://localhost:8700/VelibIWS/DefaultService?xsd=xsd1" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

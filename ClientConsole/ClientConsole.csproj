@@ -55,13 +55,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Connected Services\VelibSOAP\item.xsd">
+    <None Include="Connected Services\VelibSOAP\DefaultService.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\VelibSOAP\item1.xsd">
+    <None Include="Connected Services\VelibSOAP\DefaultService1.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\VelibSOAP\item2.xsd">
+    <None Include="Connected Services\VelibSOAP\DefaultService2.xsd">
       <SubType>Designer</SubType>
     </None>
     <None Include="Connected Services\VelibSOAP\VelibIWService.wsdl" />
@@ -73,7 +73,7 @@
     <WCFMetadataStorage Include="Connected Services\VelibSOAP\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\VelibSOAP\item.disco" />
+    <None Include="Connected Services\VelibSOAP\DefaultService.disco" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Connected Services\VelibSOAP\configuration91.svcinfo" />

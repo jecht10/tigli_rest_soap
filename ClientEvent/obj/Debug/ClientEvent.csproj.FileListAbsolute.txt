@@ -1,0 +1,7 @@
+C:\Users\User\source\repos\VelibIWS\ClientEvent\obj\Debug\ClientEvent.csprojResolveAssemblyReference.cache
+C:\Users\User\source\repos\VelibIWS\ClientEvent\obj\Debug\ClientEvent.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\VelibIWS\ClientEvent\bin\Debug\ClientEvent.exe.config
+C:\Users\User\source\repos\VelibIWS\ClientEvent\bin\Debug\ClientEvent.exe
+C:\Users\User\source\repos\VelibIWS\ClientEvent\bin\Debug\ClientEvent.pdb
+C:\Users\User\source\repos\VelibIWS\ClientEvent\obj\Debug\ClientEvent.exe
+C:\Users\User\source\repos\VelibIWS\ClientEvent\obj\Debug\ClientEvent.pdb

@@ -1,0 +1,12 @@
+C:\Users\User\source\repos\VelibIWS\Host2\bin\Debug\Host2.dll.config
+C:\Users\User\source\repos\VelibIWS\Host2\bin\Debug\Host2.dll
+C:\Users\User\source\repos\VelibIWS\Host2\bin\Debug\Host2.pdb
+C:\Users\User\source\repos\VelibIWS\Host2\bin\Debug\EventsLib.dll
+C:\Users\User\source\repos\VelibIWS\Host2\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\source\repos\VelibIWS\Host2\bin\Debug\EventsLib.pdb
+C:\Users\User\source\repos\VelibIWS\Host2\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\source\repos\VelibIWS\Host2\obj\Debug\Host2.csprojResolveAssemblyReference.cache
+C:\Users\User\source\repos\VelibIWS\Host2\obj\Debug\Host2.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\VelibIWS\Host2\obj\Debug\Host2.csproj.CopyComplete
+C:\Users\User\source\repos\VelibIWS\Host2\obj\Debug\Host2.dll
+C:\Users\User\source\repos\VelibIWS\Host2\obj\Debug\Host2.pdb

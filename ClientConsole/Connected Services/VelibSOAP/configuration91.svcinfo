@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="rVCwmo84AbN8Z/LyUC95BQ4cKWE=">
+<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="mabruxe/gTFBQkqBEcsvZ4a0hlA=">
   <bindingConfigurations>
     <bindingConfiguration bindingType="wsHttpBinding" name="WSHttpBinding_IVelibIWService">
       <properties>
@@ -127,10 +127,10 @@
     </bindingConfiguration>
   </bindingConfigurations>
   <endpoints>
-    <endpoint name="WSHttpBinding_IVelibIWService" contract="VelibSOAP.IVelibIWService" bindingType="wsHttpBinding" address="http://localhost:8700/velibiws/" bindingConfiguration="WSHttpBinding_IVelibIWService">
+    <endpoint name="WSHttpBinding_IVelibIWService" contract="VelibSOAP.IVelibIWService" bindingType="wsHttpBinding" address="http://localhost:8700/VelibIWS/DefaultService" bindingConfiguration="WSHttpBinding_IVelibIWService">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>http://localhost:8700/velibiws/</serializedValue>
+          <serializedValue>http://localhost:8700/VelibIWS/DefaultService</serializedValue>
         </property>
         <property path="/behaviorConfiguration" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />

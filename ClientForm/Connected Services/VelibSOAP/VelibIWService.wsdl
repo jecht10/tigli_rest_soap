@@ -250,9 +250,9 @@
   </wsp:Policy>
   <wsdl:types>
     <xsd:schema targetNamespace="http://tempuri.org/Imports">
-      <xsd:import schemaLocation="http://localhost:8700/velibiws/?xsd=xsd0" namespace="http://tempuri.org/" />
-      <xsd:import schemaLocation="http://localhost:8700/velibiws/?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
-      <xsd:import schemaLocation="http://localhost:8700/velibiws/?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="http://localhost:8700/VelibIWS/DefaultService?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:8700/VelibIWS/DefaultService?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:8700/VelibIWS/DefaultService?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
     </xsd:schema>
   </wsdl:types>
   <wsdl:message name="IVelibIWService_GetVilles_InputMessage">
@@ -347,9 +347,9 @@
   </wsdl:binding>
   <wsdl:service name="VelibIWService">
     <wsdl:port name="WSHttpBinding_IVelibIWService" binding="tns:WSHttpBinding_IVelibIWService">
-      <soap12:address location="http://localhost:8700/velibiws/" />
+      <soap12:address location="http://localhost:8700/VelibIWS/DefaultService" />
       <wsa10:EndpointReference>
-        <wsa10:Address>http://localhost:8700/velibiws/</wsa10:Address>
+        <wsa10:Address>http://localhost:8700/VelibIWS/DefaultService</wsa10:Address>
         <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
           <Upn>MSI\User</Upn>
         </Identity>
